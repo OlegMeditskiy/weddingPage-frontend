@@ -126,7 +126,7 @@ constructor(props) {
                                 <Tab.Pane eventKey="aboutUs">
                                     <AboutUs failNotification={this.updateFail} successNotification={this.updateSuccess}/>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="ourStory">
+                                <Tab.Pane  eventKey="ourStory">
                                     <OurStory failNotification={this.updateFail} successNotification={this.updateSuccess}/>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="program">
